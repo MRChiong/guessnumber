@@ -1,0 +1,50 @@
+body {
+  background: linear-gradient(135deg, rgba(50, 150, 250, 0.8), rgba(255, 255, 150, 0.8));
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 150, 0.9); /* Soft yellow color */
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(50, 150, 250, 0.5); /* Blue shadow color */
+}
+
+input {
+  margin: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 25px;
+  cursor: pointer;
+  background-color: #005f73; /* Teal background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a9396; /* Lighter teal on hover */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #001219; /* Darker text color */
+  margin-top: 20px;
+}
